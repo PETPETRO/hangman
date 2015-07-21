@@ -1,0 +1,14 @@
+.center{
+	text-align: center;
+}
+
+.space{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#secret{
+	text-align: center;
+	font-size: 2em;
+	letter-spacing: 0.5em;
+}
