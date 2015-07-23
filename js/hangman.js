@@ -76,14 +76,15 @@ function clickOnLetter(event){
 //click on reset button
 
  function reset(){
-  var guessedLetters='';
+  guessedLetters='';
+  elementSecret.textContent=getGuessedWord(secret, guessedLetters);
   for (var btn of document.getElementById('alphabet').childNodes){
       btn.removeAttribute('disabled');
   }
-  elementSecret.textContent=getGuessedWord(secret, guessedLetters);
   counter=1;
+  image.setAttribute('src','images/phase'+ counter +'.png');
   console.log(elementSecret.textContent);
-  update();
+  //update();
 }
 
 
