@@ -1,74 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
-<link rel="stylesheet" type="text/css" href="css/style.css">
-
-        <title></title>
+        <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39">
+        <title>
+            Hangman
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     </head>
     <body>
-    	<div class="col-md-12 ">
-    		<h1 class="center">HANGMAN</h1>
-    	</div>
-    	<div class="col-md-12 center space">
-    		<img id="phase" src="images/phase1.png">
-    	</div>
-    	<!-- <div class="col-md-12 center space">
-    		<div class="btn-group">
-    		<button type="button" class="btn btn-default">A</button>
-    		<button type="button" class="btn btn-default">B</button>
-    		<button type="button" class="btn btn-default">C</button>
-    		<button type="button" class="btn btn-default">D</button>
-    		<button type="button" class="btn btn-default">E</button>
-    		<button type="button" class="btn btn-default">F</button>
-    		<button type="button" class="btn btn-default">G</button>
-    		<button type="button" class="btn btn-default">H</button>
-    		<button type="button" class="btn btn-default">I</button>
-    		<button type="button" class="btn btn-default">J</button>
-    		<button type="button" class="btn btn-default">K</button>
-    		<button type="button" class="btn btn-default">L</button>
-    		<button type="button" class="btn btn-default">M</button>
-    		<button type="button" class="btn btn-default">N</button>
-    		<button type="button" class="btn btn-default">O</button>
-    		<button type="button" class="btn btn-default">P</button>
-    		<button type="button" class="btn btn-default">Q</button>
-    		<button type="button" class="btn btn-default">R</button>
-    		<button type="button" class="btn btn-default">S</button>
-    		<button type="button" class="btn btn-default">T</button>
-    		<button type="button" class="btn btn-default">U</button>
-    		<button type="button" class="btn btn-default">V</button>
-    		<button type="button" class="btn btn-default">X</button>
-    		<button type="button" class="btn btn-default">Y</button>
-    		<button type="button" class="btn btn-default">Z</button>
+        <div class="col-md-12">
+            <h1 class="center">
+                HANGMAN
+            </h1>
+        </div>
+        <div class="col-md-12 center space">
+            <img id="phase" src="images/phase1.png" alt="images/phase1.png">
+        </div><!-- <div class="col-md-12 center space">
+                <div class="btn-group">
+                <button type="button" class="btn btn-default">A</button>
+                <button type="button" class="btn btn-default">B</button>
+                <button type="button" class="btn btn-default">C</button>
+                <button type="button" class="btn btn-default">D</button>
+                <button type="button" class="btn btn-default">E</button>
+                <button type="button" class="btn btn-default">F</button>
+                <button type="button" class="btn btn-default">G</button>
+                <button type="button" class="btn btn-default">H</button>
+                <button type="button" class="btn btn-default">I</button>
+                <button type="button" class="btn btn-default">J</button>
+                <button type="button" class="btn btn-default">K</button>
+                <button type="button" class="btn btn-default">L</button>
+                <button type="button" class="btn btn-default">M</button>
+                <button type="button" class="btn btn-default">N</button>
+                <button type="button" class="btn btn-default">O</button>
+                <button type="button" class="btn btn-default">P</button>
+                <button type="button" class="btn btn-default">Q</button>
+                <button type="button" class="btn btn-default">R</button>
+                <button type="button" class="btn btn-default">S</button>
+                <button type="button" class="btn btn-default">T</button>
+                <button type="button" class="btn btn-default">U</button>
+                <button type="button" class="btn btn-default">V</button>
+                <button type="button" class="btn btn-default">X</button>
+                <button type="button" class="btn btn-default">Y</button>
+                <button type="button" class="btn btn-default">Z</button>
 
 </div>
-    	</div> -->
-
-    	<div class="col-md-12  center space">
-    		<span id="secret">
-    		 ______
-    		
-    		</span>
-    	</div>
-
-    	<div class ="col-md-12 center" id="alphabet">
-    	</div>
-
-    	<div class="col-md-12 center space" >
-    		<button type="button" class="btn btn-primary">Restart</button>
-    	</div>
-       
-        <table>
-        </table>
-    </body>
-
-    <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39"><!-- Latest compiled and minified CSS -->
+        </div> -->
+        <div class="col-md-12 center space">
+            <span id="secret">______</span>
+        </div>
+        <div class="col-md-12 center" id="alphabet"></div>
+        <div class="col-md-12 center space">
+            <button id="restart"  type="button" class="btn btn-default"> Restart
+            </button>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"><!-- Latest compiled and minified JavaScript -->
-
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script> <script src="js/hangman.js">
 </script>
-<script src="js/hangman.js">
-</script>
-
+    </body>
 </html>
