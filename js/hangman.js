@@ -28,13 +28,6 @@ function getGuessedWord(secret, guessedLetters)
 
 // set the result of function getGuessedWord into element
 
-//elementSecret.textContent= getGuessedWord(secret, guessedLetters);
-
-
-
-
-// when click on letter button
-
 
 function update(){
 
@@ -70,10 +63,7 @@ function update(){
 
 
 
-
-
-
-
+// when click on letter button
 
 
 function clickOnLetter(event){
@@ -83,7 +73,7 @@ function clickOnLetter(event){
   elementLetter.setAttribute('disabled','disabled');                      //disabled to click on button again
 }
 
-
+//click on reset button
 
  function reset(){
   var guessedLetters='';
@@ -94,17 +84,7 @@ function clickOnLetter(event){
   counter=1;
   console.log(elementSecret.textContent);
   update();
-    }
-
-
-  // guessedLetters = "";
-  // elementSecret.textContent = getGuessedWord(secret, lettersGuessed);
-  // for (var btn of document.getElementById('alphabet').childNodes){
-  //     btn.setAttribute('disabled','active');
-    
-    
-
-
+}
 
 
 
@@ -131,8 +111,6 @@ function play(){
     
 
 }
-
-
 
 
 
